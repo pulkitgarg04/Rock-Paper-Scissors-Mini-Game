@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Rock Paper Scissors</h1>
-    <p>Your Score: </p>
-    <p>Computer's Score: </p>
-    <div class="player-rock"></div>
-    <div class="player-paper"></div>
-    <div class="player-scissors"></div>
+    <main>
+        <h1>ROCK PAPER SCISSORS</h1>
+        <section class="scoreboard">
+            <div class="player">
+                <h2 class="name" id="name-player">YOU</h2>
+                <p class="score" id="score-player">0</p>
+            </div>
+            <div class="player">
+                <h2 class="name" id="name-computer">COMPUTER</h2>
+                <p class="score" id="score-computer">0</p>
+            </div>
+        </section>
+
+        <section class="choose">
+            <div class="box player-rock">
+                <img src="./assets/icon-rock.svg" alt="rock-image">
+                <h3 class="box-text">Rock</h3>
+            </div>
+            <div class="box player-paper">
+                <img src="./assets/icon-paper.svg" alt="paper-image">
+                <h3 class="box-text">Paper</h3>
+            </div>
+            <div class="box player-scissors">
+                <img src="./assets/icon-scissors.svg" alt="scissors-image">
+                <h3 class="box-text">Scissors</h3>
+            </div>
+        </section>
+        <div class="info">Choose above to start!</div>
+        <button class="btn btn-new">🔄 New Game</button>
+    </main>
     <script src="script.js"></script>
 </body>
+
 </html>
