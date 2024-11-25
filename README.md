@@ -18,7 +18,7 @@ Rock Paper Scissors Game - Play this fun game against the computer, with a score
 ## 🚀 How to Play
 1. Clone or download the project:
 ```bash
-git clone https://github.com/pulkitgarg04/rock-paper-scissors.git
+https://github.com/pulkitgarg04/Rock-Paper-Scissors-Mini-Game.git
 ```
 2. Open the folder.
 
